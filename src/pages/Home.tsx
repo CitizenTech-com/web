@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const Home = () => {
   return (
-    <div>
+    <Container className='text-center text-primary'>
       HOMEPAGE
-    </div>
+    </Container>
   )
 }
 
